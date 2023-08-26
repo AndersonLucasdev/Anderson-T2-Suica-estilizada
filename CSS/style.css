@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,19 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.container-escuro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .container {
@@ -25,6 +37,7 @@ body {
 }
 
 .container-header {
+    z-index: 2;
     width: 100%;
     height: 10vh;
     display: flex;
@@ -33,12 +46,12 @@ body {
     background: rgba(211, 198, 198, 0.5);
     backdrop-filter: blur(0.5px);
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .container-header-logo {
     height: 100%;
-    width: 10%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,13 +59,13 @@ body {
 
 .container-header-logo img {
     object-fit: contain; 
-    height: 150%;
+    height: 170%;
     width: 150%;
 }
 
 .container-header-navbar {
     height: 100%;
-    width: 55%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,17 +79,17 @@ body {
 .container-header-navbar > li > a {
     color: #F0FFFF;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .container-header-navbar li a:hover{
     padding-bottom: 1px;
-    border-bottom: 2.5px solid #8f8fa3;
+    border-bottom: 2.5px solid #c4c4cc;
 }
 
 .container-header-logo2 {
     height: 100%;
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -84,16 +97,18 @@ body {
 
 .container-header-logo2 img {
     object-fit: contain; 
-    height: 150%;
-    width: 150%;
+    height: 170%;
+    width: 80%;
 }
 
 .container-main {
+    z-index: 2;
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .container-main-textos {
@@ -115,7 +130,7 @@ body {
 }
 
 .container-main-textos-titulo-1 {
-    width: 100%;
+    width: 95%;
     height: 50%;
     display: flex;
     align-items: center;
@@ -123,8 +138,16 @@ body {
 }
 
 .container-main-textos-titulo-2 {
-    width: 100%;
+    width: 60%;
     height: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: top;
+}
+
+.container-main-textos-paragrafo {
+    width: 70%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +160,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .container-main-imgs {
     width: 50%;
