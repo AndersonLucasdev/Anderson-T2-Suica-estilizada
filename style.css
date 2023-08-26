@@ -17,7 +17,6 @@
     flex-direction: column;
 }
 
-
 .container-header {
     width: 100%;
     height: 10vh;
@@ -31,9 +30,18 @@
 }
 
 .container-header-logo {
-    height: 100%;
-    width: 10%;
+    background-image: url("./img/img01t2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 60%;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .container-header-navbar {
     height: 100%;
@@ -59,10 +67,77 @@
     border-bottom: 2px solid #c4c4cc;
 }
 
+.container-header-logo2 {
+    background-image: url("./img/img01t2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 60%;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-main {
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-main-textos {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-textos-titulo {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-textos-titulo-1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-main-textos-titulo-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main-textos-btn {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .container-main-textos-btn > button {
+    
+} */
+
+.container-main-imgs {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
