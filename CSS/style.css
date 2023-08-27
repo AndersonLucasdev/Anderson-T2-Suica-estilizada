@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(211, 198, 198, 0.5);
+    background: rgba(211, 198, 198, 0.3);
     backdrop-filter: blur(0.5px);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -48,7 +48,7 @@
 
 .container-header-logo {
     height: 100%;
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +60,11 @@
     width: 150%;
 }
 
+.container-header-logo > p {
+    width: 55%;
+    text-align: center;
+    font-weight: bolder;
+}
 .container-header-navbar {
     height: 100%;
     width: 60%;
