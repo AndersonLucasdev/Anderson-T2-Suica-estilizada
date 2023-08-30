@@ -190,10 +190,10 @@
 
 .container-main-imgs-cards {
     width: 75%;
-    height: 40%;
+    height: 35%;
     display: flex;
     align-items: flex-end;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 2%;
 }
 
