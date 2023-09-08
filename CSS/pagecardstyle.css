@@ -159,15 +159,18 @@
 }
 
 .container-main-imgs-divisao {
-    width: 80%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: start;
 }
 
 .container-main-imgs-divisao img {
-    object-fit: contain; 
-    height: 70%;
-    width: 30%;
+    height: 65%;
+    width: 25%;
+    /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5%), 0% 100%); */
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%); */
+    clip-path: polygon(0% 0%, 100% 2%, 100% 97%, 0% 100%);
+    cursor: pointer;
 }
