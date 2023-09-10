@@ -33,6 +33,54 @@
     position: relative;
 }
 
+.container-linha1 {
+    position: absolute;
+    width: 0.1rem;
+    height: 6%;
+    background-color: #ffff;
+    top: 55%;
+    left: 1.75%;
+}
+
+.container-github{
+    background-image: url("../img/github-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 2.15%;
+    z-index: 1;
+    top: 43%;
+    left: 1%;
+}
+
+.container-linkedin {
+    background-image: url("../img/linkdin-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 2.15%;
+    z-index: 1;
+    top: 47%;
+    left: 1%;
+}
+
+.container-instagram {
+    background-image: url("../img/instagram-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 2.15%;
+    z-index: 1;
+    top: 51%;
+    left: 1%;
+}
+
 .container-header {
     z-index: 2;
     width: 100%;
