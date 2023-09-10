@@ -35,11 +35,50 @@
 
 .container-linha1 {
     position: absolute;
-    width: 0.1rem;
-    height: 6%;
+    width: 0.105rem;
+    height: 7.5%;
     background-color: #ffff;
     top: 55%;
     left: 1.75%;
+}
+
+.container-L1-vertical {
+    position: absolute;
+    width: 0.18%;
+    height: 8%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 55.4%;
+    right: 37%;
+}
+
+.container-L1-horizontal {
+    position: absolute;
+    width: 4%;
+    height: 0.4%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 63%;
+    right: 33%;
+}
+
+.container-L2-vertical {
+    position: absolute;
+    width: 0.18%;
+    height: 8%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 17.1%;
+    right: 4.7%;
+}
+
+.container-L2-horizontal {
+    position: absolute;
+    width: 4%;
+    height: 0.4%;
+    background-color: #e0dddd;
+    top: 17.17%;
+    right: 4.8%;
 }
 
 .container-github{
@@ -49,10 +88,11 @@
     background-size: 100% 100%;
     position: absolute;
     width: 1.5%;
-    height: 2.15%;
-    z-index: 1;
+    height: 3%;
+    z-index: 3;
     top: 43%;
     left: 1%;
+    cursor: pointer;
 }
 
 .container-linkedin {
@@ -62,10 +102,11 @@
     background-size: 100% 100%;
     position: absolute;
     width: 1.5%;
-    height: 2.15%;
-    z-index: 1;
+    height: 3%;
+    z-index: 3;
     top: 47%;
     left: 1%;
+    cursor: pointer;
 }
 
 .container-instagram {
@@ -75,10 +116,11 @@
     background-size: 100% 100%;
     position: absolute;
     width: 1.5%;
-    height: 2.15%;
-    z-index: 1;
+    height: 3%;
+    z-index: 3;
     top: 51%;
     left: 1%;
+    cursor: pointer;
 }
 
 .container-header {
@@ -304,7 +346,7 @@
 .container-main-imgs-principal-espacamento > img {
     width: 80%;
     height: 85%;
-    border-radius: 5%;
+    border-radius: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
