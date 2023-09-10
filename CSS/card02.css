@@ -33,6 +33,145 @@
     position: relative;
 }
 
+.container-linha1 {
+    position: absolute;
+    width: 0.105rem;
+    height: 7.5%;
+    background-color: #ffff;
+    top: 55%;
+    left: 1.75%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.container-linha2,
+.container-linha3,
+.container-linha4,
+.container-linha5 {
+    position: absolute;
+    width: 0.25rem;
+    height: 6%;
+    background-color: #ffff;
+    right: 0.7%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.container-linha2 {
+    top: 50%;
+}
+
+.container-linha3 {
+    top: 41%;
+}
+
+.container-linha4 {
+    top: 32%;
+}
+
+.container-linha5 {
+    top: 23%;
+}
+
+.container-nome {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    top: 34%;
+    right: 2.2%;
+}
+
+.container-nome {
+    color: #fcf8f8;
+    font-size: 0.7rem;
+}
+
+.container-L1-vertical {
+    position: absolute;
+    width: 0.18%;
+    height: 8%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 55.4%;
+    right: 37%;
+}
+
+.container-L1-horizontal {
+    position: absolute;
+    width: 4%;
+    height: 0.4%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 63%;
+    right: 33%;
+}
+
+.container-L2-vertical {
+    position: absolute;
+    width: 0.18%;
+    height: 8%;
+    border-radius: 15%;
+    background-color: #e0dddd;
+    top: 17.1%;
+    right: 4.7%;
+}
+
+.container-L2-horizontal {
+    position: absolute;
+    width: 4%;
+    height: 0.4%;
+    background-color: #e0dddd;
+    top: 17.17%;
+    right: 4.8%;
+}
+
+.container-github{
+    background-image: url("../img/github-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 3%;
+    z-index: 3;
+    top: 43%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.container-linkedin {
+    background-image: url("../img/linkdin-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 3%;
+    z-index: 3;
+    top: 47%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.container-instagram {
+    background-image: url("../img/instagram-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1.5%;
+    height: 3%;
+    z-index: 3;
+    top: 51%;
+    left: 1%;
+    cursor: pointer;
+}
+
+
 .container-header {
     z-index: 2;
     width: 100%;

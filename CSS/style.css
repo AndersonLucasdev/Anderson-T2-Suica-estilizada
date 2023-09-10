@@ -40,6 +40,54 @@
     background-color: #ffff;
     top: 55%;
     left: 1.75%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.container-linha2,
+.container-linha3,
+.container-linha4,
+.container-linha5 {
+    position: absolute;
+    width: 0.25rem;
+    height: 6%;
+    background-color: #ffff;
+    right: 0.7%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.container-linha2 {
+    top: 50%;
+}
+
+.container-linha3 {
+    top: 41%;
+}
+
+.container-linha4 {
+    top: 32%;
+}
+
+.container-linha5 {
+    top: 23%;
+}
+
+.container-nome {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    top: 34%;
+    right: 2.2%;
+}
+
+.container-nome {
+    color: #fcf8f8;
+    font-size: 0.7rem;
 }
 
 .container-L1-vertical {
