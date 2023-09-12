@@ -245,50 +245,6 @@
     position: relative;
 }
 
-/* .container-main-aside {
-    height: 65%;
-    width: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.container-main-aside-links {
-    height: 30%;
-    width: 80%;
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.img-link {
-    width: 1.1rem;
-    height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.container-main-aside-decorar {
-    width: 100%;
-    height: 12%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-main-aside-traco {
-    width: 5%;
-    height: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    border-radius: 10%;
-    background-color: #f1f1f1;
-} */
-
 .container-main-textos {
     width: 50%;
     height: 100%;
