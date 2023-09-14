@@ -222,6 +222,11 @@
     border-bottom: 2.5px solid #c4c4cc;
 }
 
+.ativo {
+    padding-bottom: 1px;
+    border-bottom: 2.5px solid #c4c4cc;
+}
+
 .container-header-logo2 {
     height: 100%;
     width: 15%;
