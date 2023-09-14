@@ -17,6 +17,44 @@
     z-index: 1;
 }
 
+.botao-direito {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1.5%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.botao-direito img {
+    width: 60%;
+    height: 60%;
+}
+
+.botao-esquerdo {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1.5%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.botao-esquerdo img {
+    width: 60%;
+    height: 60%;
+}
+
 .container {
     height: 100vh;
     width: 100%;
@@ -106,3 +144,88 @@
     align-items: center;
     position: relative;
 }
+
+.container-main-textos {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-textos-titulo {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-textos-titulo-espacamento {
+    width: 95%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-main-textos-titulo-espacamento > h1 {
+    font-size: 3rem;
+    color: #ffff;
+}
+
+.container-main-textos-paragrafo {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main-textos-paragrafo > p {
+    font-size: 1rem;
+    color: #ffff;
+}
+
+.container-main-imgs {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-main-imgs-principal {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main-imgs-principal-espacamento {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.container-main-imgs-principal-espacamento > img {
+    width: 80%;
+    height: 85%;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
